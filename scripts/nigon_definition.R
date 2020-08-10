@@ -201,8 +201,7 @@ gene2Nigon <- filter(ortoWclust, Orthogroup %in% consOrts) %>%
   inner_join(gPos, by = c("value" = "tID",
                           "variable" = "assembly",
                           "scaffold")) %>%
-  mutate(kinfCut = kinfCut) %>%
-  select(kinfCut, Orthogroup, nigon, assembly = variable,
+  select(Orthogroup, nigon, assembly = variable,
          tID = value, scaffold, stPos)
 
 
