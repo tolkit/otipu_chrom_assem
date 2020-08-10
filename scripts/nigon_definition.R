@@ -205,7 +205,7 @@ gene2Nigon <- filter(ortoWclust, Orthogroup %in% consOrts) %>%
          tID = value, scaffold, stPos)
 
 
-write_tsv(gene2Nigon, paste0("nalyses/orthoFinder/gene2Nigon",
+write_tsv(gene2Nigon, paste0("analyses/orthoFinder/gene2Nigon",
                              format(Sys.time(), "%Y%m%d_%H_%M"),
                              ".tsv.gz"))
 
