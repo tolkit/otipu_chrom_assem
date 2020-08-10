@@ -1,8 +1,15 @@
 # Scripts and files associated with the chromosomal assembly of _O. tipulae_ manuscript
 ---
 
+Prerequisites can be installed via:
+```
+conda create -n otipu -c r -c conda-forge r-base r-tidyverse r-reshape2 r-scales r-gtools r-ggpubr r-cluster r-tsne
+```
+
 After cloning the repository, R scripts can executed from the master directory.
 Figures can be found under `report/figure` while analysis results will be generated under `analysis`.
+
+
 
 ```
 git clone https://github.com/tolkit/otipu_chrom_assem.git
