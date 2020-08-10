@@ -2,7 +2,6 @@
 
 library(reshape2)
 library(cluster)
-library(optparse)
 library(tidyverse)
 
 
