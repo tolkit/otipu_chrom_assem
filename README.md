@@ -4,6 +4,7 @@
 Prerequisites can be installed via:
 ```
 conda create -n otipu -c r -c conda-forge r-base r-tidyverse r-reshape2 r-scales r-gtools r-ggpubr r-cluster r-tsne
+conda activate otipu
 ```
 
 After cloning the repository, R scripts can executed from the master directory.

@@ -1,0 +1,7 @@
+#type partof name name2 start stop colour
+chr	-	Otip_I	I	0	8916589	nigonA
+chr	-	Otip_II	II	0	9029974	nigonB
+chr	-	Otip_III	III	0	9635449	nigonC
+chr	-	Otip_IV	IV	0	11185017	nigonD
+chr	-	Otip_V	V	0	10817478	nigonN
+chr	-	Otip_X	X	0	11323338	nigonX
