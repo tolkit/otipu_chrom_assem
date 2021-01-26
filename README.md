@@ -21,7 +21,7 @@ Rscript scripts/nigon_definition.R
 To regenerate the circos plot, circos must have been installed.
 
 ```
-cd otipu_chrom_assem/analysis/circos
+cd otipu_chrom_assem/analyses/circos
 circos -conf etc/Oscheius_tipulae_3.3_all_chromosomes_Pif.circos.conf
 circos -conf etc/Oscheius_tipulae_3.3_telomeres.conf
 ```
