@@ -1,4 +1,4 @@
-# Scripts and files associated with the chromosomal assembly of _O. tipulae_ manuscript
+# Scripts and files associated with the gene based definition of Nigon units, identification of germline restricted regions and chromosomal assembly of _O. tipulae_ manuscript
 ---
 
 Prerequisites can be installed via:
